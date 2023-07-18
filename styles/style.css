@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700;800&display=swap');
+
+* {
+   font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-container-logo {
+   display: flex;
+   align-items: center;
+}
+
+.nav-container-logo img {
+   width: 86px;
+   height: 40px;
+
+
+}
+
+.nav-container-logo p {
+   font-size: 45px;
+
+}
+
+.span {
+   color: #FF42A5;
+}
+
+.nav-container-items {
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   gap: 20px;
+}
+
+.btn-primary {
+   border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+}
+
+.section {
+   display: flex;
+   padding: 200 300 380 240;
+   justify-content: space-between;
+   width: 100%;
+   background-image: url("/images/Group\ 14.png");
+
+   background-size: 50% 50%;
+   fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.section-title { 
+   margin-left: 80;
+   position: 50;
+}
+
+.goat {
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 800;
+   font-size: 90px;
+}
+
+.section-title-1 {
+   display: flex;
+}
+
+.section-title-2 {
+   display: flex;
+}
+
+.section-title-3 {
+   display: flex;
+}
+
+.section-img {
+   width: 40%;
+
+
+}
+
+.btn-1 {
+   display: inline-flex;
+   padding: 21px 40px;
+   align-items: flex-start;
+   gap: 10px;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 48px;
+   background: #FF42A5;
+}
+
+.btn-2 {
+   display: inline-flex;
+   padding: 21px 40px;
+   align-items: flex-start;
+   gap: 10px;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 48px;
+   background: #4EC5F7;
+}
+
+.online-games-title{
+   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+
+   .nav-container,
+   .nav-container-logo .nav-container-items {
+      flex-direction: column;
+   }
+
+   .nav-container-items {
+      gap: 20;
+   }
+}
+
+@media screen and (max-width: 576) and (min-width: 992) {
+
+   .nav-container,
+   .nav-container-logo .nav-container-items {
+      flex-direction: column;
+   }
+
+}
