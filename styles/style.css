@@ -113,8 +113,51 @@
    background: #4EC5F7;
 }
 
+
+.title-description{
+   color: black;
+   font-size: 48px;
+   font-weight: 700;
+}
+.span-2{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
 .online-games-title{
    text-align: center;
+}
+.online-games{
+   display: flex;
+
+}
+.online-games-img{
+width: 200;
+   height: 200;
+   gap: 10px;
+}
+.section-2-title{
+display: flex;
+} 
+.section-img-3{
+position: relative;
+margin-top: -120px; 
+margin-left: -120px;
+}
+.section-3{
+   text-align: center;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+   gap: 80px;
+   width: 90%;
+}
+.section-3 img:hover, p:hover {
+   border-radius: 50px;
+background: #FFF;
 }
 
 @media screen and (max-width: 576px) {
@@ -127,6 +170,16 @@
    .nav-container-items {
       gap: 20;
    }
+.img-items{
+   display: flex;
+}
+.section-2-title{
+   display: flex;
+
+}
+
+
+
 }
 
 @media screen and (max-width: 576) and (min-width: 992) {
