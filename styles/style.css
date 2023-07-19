@@ -156,7 +156,8 @@ width: 500px;
 .section-img-3 {
    position: relative;
    margin-top: -120px;
-   margin-left: -120px;
+    margin-left: -120px;
+    width: 100px;
 }
 .description-p{
    width: 80%;
@@ -244,20 +245,39 @@ width: 500px;
 @media screen and (max-width: 576px) {
 
    .nav-container,
-   .nav-container-logo .nav-container-items {
+   .nav-container-logo 
+   .nav-container-items,
+   .btn-praimary-2
+   {
       flex-direction: column;
    }
-
+   .online-games,
+   
+.online-games-img,
+.section-2-title,
+.footer,
+.footer-p,
+.footer-li 
+   {
+      flex-direction: column;
+   }
+   .section-img-2{
+      width: 100%;
+   }
+   .section-img-3{
+      width: 30px;
+      height: 40px;
+   }
    .nav-container-items {
       gap: 20;
    }
+   .games{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr) ;
 
-   .img-items {
-      display: flex;
+      justify-content: right;
    }
 
-   .section-2-title {
-      display: flex;
 
    }
 
